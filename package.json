@@ -1,0 +1,30 @@
+{
+  "name": "jspm-copy",
+  "version": "0.0.1",
+  "description": "Enables 'cp' of a specific (or highest) version of a jspm depedency.",
+  "main": "./lib/index",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joeycadle/jspm-copy.git"
+  },
+  "author": {
+    "name": "Joey Cadle Allgaier",
+    "email": "joey@joeycadle.com",
+    "url": "https://github.com/joeycadle"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10 <=0.12 || >=1 <=3"
+  },
+  "bin": {
+    "jspm-sass-mouth": "./bin/jspm-sass-mouth"
+  },
+  "dependencies": {
+    "bluebird": "^2.9.34",
+    "colors": "^1.1.2",
+    "lodash": "^3.10.1",
+    "minimist": "^1.2.0",
+    "fs": "0.0.2",
+    "path": "^0.11.14"
+  }
+}
