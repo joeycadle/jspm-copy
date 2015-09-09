@@ -1,6 +1,6 @@
 {
   "name": "jspm-copy",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Enables 'cp' of a specific (or highest) version of a jspm depedency.",
   "main": "./lib/index",
   "repository": {
