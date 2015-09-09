@@ -11,5 +11,5 @@ $ npm install jspm-copy --save-dev
 ## Usage
 
 ```
-jspm-copy [--recursive] --from /source --to /destination
+jspm-copy [-R (recursive)] --pkg registry:package@optional-version --from path/to/copy/from/pkg --to /local/destinataion
 ```
